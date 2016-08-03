@@ -1,41 +1,239 @@
+
 body{
-	background-color:#efeee7;
-	font-family: "Georgia", "Times New Roman", Times, serif;
-	color:#333333;
-	margin: 0;
+	background: url(../images/concrete_seamless.png) repeat;
+}
+
+
+#container{
+	width: 100%;
+	height: 100%
+}
+
+.container1{
+	height: 90px;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
 	padding: 0;
 }
 
-header{
-	background-color: #d21034;
+header h1{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	float: left;
+	border: 1px solid #cccccc;
+	padding: 22.5px;
+	height: 53px;
+	position: absolute;
+	top: -22px;
+	left: 155px;
 }
 
-h1{
-	background-color: #333333;
-	font-size: 28px;
+
+#navbar{
+	list-style-type: none;
+	padding: 20px;
+	float: right;
+}
+
+.list1{
+	display: inline;
+	padding: 20px;
+	font-size: 20px;
+	position: relative;
+	left: -360px;
+	width: 270px;
+}
+
+a{
+	text-decoration: none;
+	color: #777777;
+}
+
+.container2 h1{
+	color: #4aaaa5;
+	position: relative;
+	border-bottom: 2px solid #cccccc;
+}
+
+.container2{
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	padding: 20px;
+	height: 480px;
+	margin-left: 155px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.portfolio{
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	padding: 20px;
+	height: 480px;
+	margin-left: 155px;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.bio{
+	color: #4aaaa5;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+.contact{
+	color: #4aaaa5;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+.heading1{
+	color: #4aaaa5;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+.heading2{
+	color: #4aaaa5
+	text-align: center;
+}
+
+
+#profilepic{
+	width: 194px;
+	height: 147px;
+	float: left;
+}
+
+label, input, textarea{
+	clear:both;
+	float: left;
+}
+
+.form label input{
+	padding: 5px;
+}
+
+.submit{
+        margin-top: 20px;
+        background-color: #4aaaa5 ;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        padding: 10px;
+}
+
+.text1{
+	color: #777777;
+	float: left;
+	display: inline;
+}
+
+
+
+.connect{
+	border: 1px solid #dddddd;
+	display: inline;
+	height: 200px;
+	width: 270px;
+	padding: 20px;
+	float: right;
+	position: relative;
+	top: 40px;
+	right: -5px;
+}
+
+.heading1{
+	color: #4aaaa5;
+	text-align: left;
+	border-bottom: 2px solid #cccccc;
+	margin: auto;
+	padding: 20px;
+	clear: both;
+}
+
+.heading2{
+	color: #4aaaa5;
+	text-align: center;
+}
+
+.list2{
+	display: inline;
+	color: #777777;
+}
+
+.image{
+	width: 60px;
+	height: 60px;
+	float: left;
+	padding-left: 10px;
+	position:relative;
+	right: 10px;
+}
+
+footer{
+	border-top: 10px solid #4aaaa5; 
+	clear: both;
+	text-align: center;
+	background: gray; 
+	color: #cccccc;
+	padding-top: 40px;
+	padding-bottom: 45px;
+	font-size: 10px;
+}
+
+
+/*Portfolio CSS*/
+
+#portfolio-img{
+	height: 100px;
+	width: 275px;
+}
+
+
+span{
+	background-color: #4aaaa5;
 	color: white;
+	font-size: 10px;
+	border: 1px solid #cccccc;
+	padding: 10px;
 }
 
-.container{
-	margin:0 auto;
+.img{
+	position: relative;
+	float: left;
+	margin: 15px;
+	margin-left: 30px;
 }
 
-#main-bio, #contact-info, #bio-image{
+.imgright{
+	position: relative;
 	float:left;
+	margin: 15px;
+	margin-left: 30px;
 }
 
 
-#bio-image{
-	width:200px;
-	margin: 2px;
-	width: 70%;
-}
-
-#contact-info{
-	width: 30%;
-	line-height: 1.5;
-}
-
-ul{
-	color:#d21034;
+.img span, .imgright span{
+	position:absolute;
+	font-family: Courier;
+	background-color:#4aaaa5;
+	color:white;
+	padding: 15px;
+	margin: 0;
+	width: 245px;
+	text-align: center;
+	font-weight: normal;
+	bottom: 20px;
+	left: 0px;
 }

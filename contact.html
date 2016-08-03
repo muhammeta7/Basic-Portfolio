@@ -3,28 +3,50 @@
 	
 	<head>
 		<title>Base Profile</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		
-		<header><h1>Muhammet Aydin</h1>
-			<p>About</p>
-			<p>Portfolio</p>
-			<p>Contact</p>
-		</header>
+		<div id="container">
+			<div class="container1">
+				<header><h1>Muhammet Aydin</h1></header>
+				<nav id="navbar">
+					<ul>
+						<li class="list1"><a href="file:///C:/Users/Muhammet/Desktop/Bootcamp/HW1/Basic-Portfolio/index.html" target="_blank">About</a></li>
+						<li class="list1"><a href="portfolio.html" target="_blank">Portfolio</a></li>
+						<li class="list1"><a href="contact.html" target="_blank">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container2">
+				<div class="form">
+					<h1 class="heading1">Contact</h1>
+					<form class="form">
+						<label>Name</label>
+						<input type="text" name="name">
+						<label>Email</label>
+						<input type="email" name="Email">
+						<label>Message</label>
+						<textarea name="Message" rows="7.5" cols="40" ></textarea>
+						<input type="submit" value="Submit" class="submit">
+					</form>
+				</div>
+			</div>
 
-		
-		<div>
-			<header><h1>Contact</h1></header>
-			<form>
-				<label>Name</label>
-				<input type="text" name="name">
-				<label>Email</label>
-				<input type="email" name="Email">
-				<label>Message</label>
-				<textarea name="Message" rows="7.5" cols="40" ></textarea>
-			</form>
+			<div class="connect">	
+				<aside>
+					<h2 class="heading2">Connect with Me</h2>
+					<ul>
+						<li class="list2"><a href="https://github.com/muhammeta7" target="_blank"><img src="assets/images/github-128.png" alt="" class="image"></a></li>
+						<li class="list2"><a href="https://www.linkedin.com/in/muhammet-aydin-5918893b" target="_blank"><img src="assets/images/linkedin.png" alt="" class="image"></a></li>
 
-		
+						<li class="list2"><a href="http://stackoverflow.com/users/6558661/muhammet-aydin" target="_blank"><img src="assets/images/stackoverflow-128.png" alt="" class="image"></a></li>
+
+					</ul>
+				</aside>
+			</div>
+			<footer>
+				<p>&copy; Copyright 2016 MuhammetAydin</p>
+			</footer>
+		</div>
 	</body>
 </html>
