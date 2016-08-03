@@ -1,6 +1,6 @@
 
 body{
-	background: url(../images/concrete_seamless.png) repeat;
+	background:  url(../images/concrete_seamless.png) repeat;
 }
 
 
@@ -14,6 +14,7 @@ body{
 	width: 100%;
 	border-bottom: 2px solid #cccccc;
 	padding: 0;
+	background-color: white;
 }
 
 header h1{
@@ -53,6 +54,7 @@ a{
 	color: #4aaaa5;
 	position: relative;
 	border-bottom: 2px solid #cccccc;
+	background-color: white;
 }
 
 .container2{
@@ -72,7 +74,7 @@ a{
 	border: 1px solid #dddddd;
 	width: 650px;
 	padding: 20px;
-	height: 480px;
+	height: 650px;
 	margin-left: 155px;
 	float: left;
 	margin-top: 40px;
@@ -81,21 +83,21 @@ a{
 
 .bio{
 	color: #4aaaa5;
-	background: #ffffff;
+	background-image:  #ffffff;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 }
 
 .contact{
 	color: #4aaaa5;
-	background: #ffffff;
+	background-image:  #ffffff;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 }
 
 .heading1{
 	color: #4aaaa5;
-	background: #ffffff;
+	background-image:  #ffffff;
 	border-bottom: 2px solid #cccccc;
 	padding-bottom: 20px;
 }
@@ -151,6 +153,7 @@ label, input, textarea{
 	position: relative;
 	top: 40px;
 	right: -5px;
+	background-color: white;
 }
 
 .heading1{
@@ -185,7 +188,7 @@ footer{
 	border-top: 10px solid #4aaaa5; 
 	clear: both;
 	text-align: center;
-	background: gray; 
+	background-color:  gray; 
 	color: #cccccc;
 	padding-top: 40px;
 	padding-bottom: 45px;
@@ -196,7 +199,7 @@ footer{
 /*Portfolio CSS*/
 
 #portfolio-img{
-	height: 100px;
+	height: 240px;
 	width: 275px;
 }
 
